@@ -1,0 +1,22 @@
+Package: esas10agmts
+Type: Package
+Title: An R Data Package for Endangered Species Act Section 10 Agreements
+Version: 0.1.0
+Authors@R: person("Jacob", "Malcom", email = "jmalcom@defenders.org",
+    role = c("aut", "cre"))
+URL: https://github.com/Defenders-ESC/esas10agmts
+BugReports: https://github.com/Defenders-ESC/esas10agmts/issues
+Description:  Section 10(a)(1)(B) of the US Endangered Species Act is how
+    non-federal entities - private landowners, state governments, and
+    others - receive authorization to 'take' listed species, or coverage for
+    certain types of activities involving candidate species, in return for
+    taking conservation actions for those species. The U.S. Fish and Wildlife
+    Service (FWS) keeps basic records about these agreements on their ECOS
+    website, \url{http://ecos.fws.gov}. This data.frame was created by scraping
+    the ECOS pages for all listed, candidate, and proposed species and extracting
+    the summary tables for all section 10 agreements. The types of agreements
+    in the data include: Habitat Conservation Plans (HCPs); Safe Harbor
+    Agreements (SHAs); Candidate Conservation Agreements (CCAs); and Candidate
+    Conservation Agreements with Assurances (CCAAs).
+License: BSD_2_clause + file LICENSE
+LazyData: TRUE
